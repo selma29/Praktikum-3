@@ -1,5 +1,5 @@
-# Praktikum 3
-## Tugas Bahasa Pemograman pertemuan 6
+# PRAKTIKUM 3
+## TUGAS PERTEMUAN KE 6 BAHASA PEMOGRAMAN
 
 Nama : Selma Ohoira
 
@@ -30,7 +30,7 @@ Tunggu hingga selesai dan program siap digunakan.
 ![Gambar](gambar/24.png)
 
 5. Selanjutnya membuat file Phyton baru dan beri nama file "latihan1"
-Masukan source code berikut:
+Masukan code berikut:
 
 # Penggunaan end
 print('A', end='')
@@ -80,14 +80,14 @@ print('{0:>3} {1:>16}'.format(10, 10 ** 10))
 
 7. Lalu run
 
-Hasil run
+Hasil output latihan1
 
 ![Gambar](gambar/28.png)
 
 
 # Latihan 2
 1. Buat new strach file "Latihan2.py"
-2. Masukan source code berikut :
+2. Masukan code berikut :
 
 a=input("masukkan nilai a:")
 b=input("masukkan nilai b:")
@@ -103,14 +103,14 @@ print("hasil penjumlahan {1}/{0}=%s".format(a,b) %(a/b))
 
 ![Gambar](gambar/29.png)
 
-Hasil run
+Hasil output latihan2
 
 ![Gambar](gambar/30.png)
 
 
 # Latihan 3
 1. Buat new stracth "Latihan3.py"
-2. Masukan source code berikut:
+2. Masukan code berikut:
 
 string = ""
 
@@ -164,14 +164,14 @@ print (string)
 ![Gambar](gambar/32.png)
 ![Gambar](gambar/33.png)
 
-Hasil Run
+Hasil output latihan3
 
 ![Gambar](gambar/34.png)
 
 # TUGAS
 ## MENGHITUNG LUAS DAN KELILING LINGKARAN
 1. Buat new stratch "Praktikum3"
-2. Masukan source code berikut :
+2. Masukan code berikut :
 
 print('menghitung luas dan keliling lingkaran')
 print('________________________________________')
