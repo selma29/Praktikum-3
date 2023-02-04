@@ -1,4 +1,4 @@
-# Praktikum-3
+# Praktikum 3
 ## Tugas Bahasa Pemograman pertemuan 6
 
 Nama : Selma Ohoira
@@ -88,6 +88,7 @@ Hasil run
 # Latihan 2
 1. Buat new strach file "Latihan2.py"
 2. Masukan source code berikut :
+
 a=input("masukkan nilai a:")
 b=input("masukkan nilai b:")
 print("variabel a=",a)
@@ -109,10 +110,7 @@ Hasil run
 
 # Latihan 3
 1. Buat new stracth "Latihan3.py"
-
-![Gambar](gambar/31.png)
-
-2. Masukan source code berikut :
+2. Masukan source code berikut:
 
 string = ""
 
@@ -174,6 +172,7 @@ Hasil Run
 ## MENGHITUNG LUAS DAN KELILING LINGKARAN
 1. Buat new stratch "Praktikum3"
 2. Masukan source code berikut :
+
 print('menghitung luas dan keliling lingkaran')
 print('________________________________________')
 
