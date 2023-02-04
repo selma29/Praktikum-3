@@ -12,30 +12,25 @@ Prodi : Teknik Informatika
 Langkah-langkahnya yaitu :
 1. Install Pycharm di https://www.jetbrains.com/pycharm/download/#section=windows
 2. Pilih yang community
-![Gambar](gambar/1.png)
-![Gambar](gambar/2.png)
-![Gambar](gambar/3.png)
+![Gambar](gambar/20.png)
+![Gambar](gambar/21.png)
+![Gambar](gambar/22.png)
 
-Tunggu hingga selesai, dan program siap digunakan.
-
-
-### CARA MENJALANKAN PYCHARM
-# Latihan 1
+Tunggu hingga selesai dan program siap digunakan.
+## CARA MENJALANKAN PYCHARM
+## Latihan 1
 1. Klik new project
 2. Ketik nama project sesuai yang diinginkan.
 
-![Gambar](gambar/4.png)
+![Gambar](gambar/23.png)
 
 3. Pilih Previously Configurred interperter lalu klik yang "add interperter" dan pilih "System interperter"
 4. Pilih yang versi Python, seperti gambar di bawah ini
 
-![Gambar](gambar/5.png)
+![Gambar](gambar/24.png)
 
-5. Selanjutnya membuat file Phyton baru dan beri nama file "latihan1.py"
-
-![Gambar](gambar/6.png)
-
-6. Masukan source code berikut:
+5. Selanjutnya membuat file Phyton baru dan beri nama file "latihan1"
+Masukan source code berikut:
 
 # Penggunaan end
 print('A', end='')
@@ -80,14 +75,14 @@ print('{0:>3} {1:>16}'.format(8, 10 ** 8))
 print('{0:>3} {1:>16}'.format(9, 10 ** 9))
 print('{0:>3} {1:>16}'.format(10, 10 ** 10))
 
-![Gambar](gambar/7.png)
-![Gambar](gambar/8.png)
+![Gambar](gambar/26.png)
+![Gambar](gambar/27.png)
 
 7. Lalu run
 
 Hasil run
 
-![Gambar](gambar/9.png)
+![Gambar](gambar/28.png)
 
 
 # Latihan 2
@@ -105,17 +100,17 @@ b=int(b)
 print("hasil penjumlahan {1}+{0}=%s".format(a,b) %(a+b))
 print("hasil penjumlahan {1}/{0}=%s".format(a,b) %(a/b))
 
-![Gambar](gambar/10.png)
+![Gambar](gambar/29.png)
 
 Hasil run
 
-![Gambar](gambar/11.png)
+![Gambar](gambar/30.png)
 
 
 # Latihan 3
 1. Buat new stracth "Latihan3.py"
 
-![Gambar](gambar/12.png)
+![Gambar](gambar/31.png)
 
 2. Masukan source code berikut :
 
@@ -168,19 +163,18 @@ string = string + "\n\n"
 bar = bar + 1
 print (string)
 
-![Gambar](gambar/13.png)
-![Gambar](gambar/14.png)
+![Gambar](gambar/32.png)
+![Gambar](gambar/33.png)
 
 Hasil Run
 
-![Gambar](gambar/15.png)
+![Gambar](gambar/34.png)
 
-## TUGAS PRAKTIKUM 3
-
+# TUGAS
 ## MENGHITUNG LUAS DAN KELILING LINGKARAN
-1. Buat new stratch "Praktikum3.py"
+1. Buat new stratch "Praktikum3"
 2. Masukan source code berikut :
-print('menghitung luas dan keliling lingkarang')
+print('menghitung luas dan keliling lingkaran')
 print('________________________________________')
 
 r=float(input('masukkan nilai jari - jari :'))
@@ -193,14 +187,14 @@ keliling=phi*2*r
 print('\nluasnya =', str("%.2f" % luas))
 print('kelilingnya =', str("%.2f" % keliling))
 
-![Gambar](gambar/16.png)
+![Gambar](gambar/35.png)
 
 Hasil Run
 
-![Gambar](gambar/17.png)
+![Gambar](gambar/36.png)
 
 # Flowchart Menghitung luas dan keliling lingkaran
 
-![Gambar](gambar/18.png)
+![Gambar](gambar/37.png)
 
 SELESAI!!
