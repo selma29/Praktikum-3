@@ -89,17 +89,17 @@ Hasil output latihan1
 1. Buat new strach file "Latihan2.py"
 2. Masukan code berikut :
 
-a=input("masukkan nilai a:")
-b=input("masukkan nilai b:")
-print("variabel a=",a)
-print("variabel b=",b)
-print("hasil penggabungan {1}&{0}=%s".format(a,b) %(a+b))
+        a=input("masukkan nilai a:")
+        b=input("masukkan nilai b:")
+        print("variabel a=",a)
+        print("variabel b=",b)
+        print("hasil penggabungan {1}&{0}=%s".format(a,b) %(a+b))
 
-#konversi nilai variabel
-a=int(a)
-b=int(b)
-print("hasil penjumlahan {1}+{0}=%s".format(a,b) %(a+b))
-print("hasil penjumlahan {1}/{0}=%s".format(a,b) %(a/b))
+        #konversi nilai variabel
+        a=int(a)
+        b=int(b)
+        print("hasil penjumlahan {1}+{0}=%s".format(a,b) %(a+b))
+        print("hasil penjumlahan {1}/{0}=%s".format(a,b) %(a/b))
 
 ![Gambar](gambar/29.png)
 
@@ -173,18 +173,18 @@ Hasil output latihan3
 1. Buat new stratch "Praktikum3"
 2. Masukan code berikut :
 
-print('menghitung luas dan keliling lingkaran')
-print('________________________________________')
+        print('menghitung luas dan keliling lingkaran')
+        print('________________________________________')
 
-r=float(input('masukkan nilai jari - jari :'))
+        r=float(input('masukkan nilai jari - jari :'))
 
-phi=3.14
-diameter=2*r
+        phi=3.14
+        diameter=2*r
 
-luas=phi*r*r
-keliling=phi*2*r
-print('\nluasnya =', str("%.2f" % luas))
-print('kelilingnya =', str("%.2f" % keliling))
+        luas=phi*r*r
+        keliling=phi*2*r
+        print('\nluasnya =', str("%.2f" % luas))
+        print('kelilingnya =', str("%.2f" % keliling))
 
 ![Gambar](gambar/35.png)
 
