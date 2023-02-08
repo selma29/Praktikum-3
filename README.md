@@ -30,26 +30,58 @@ Tunggu hingga selesai dan program siap digunakan.
 ![Gambar](gambar/24.png)
 
 5. Selanjutnya membuat file Phyton baru dan beri nama file "latihan1"
-Masukan code berikut:
 
-        # Penggunaan end
+## Penggunaan end
+Parameter end berfungsi untuk mengganti karakter terakhir bawaan yang dicetak di layar. Jadi secara bawaan, setiap kali kita memanggil fungsi print() untuk mencetak sesuatu, python akan mencetak karakter ganti baris () di setiap output.
+Masukan syntax berikut:
+
+        #menampilkan karakter dengan mengosongkan karakter terakhir(yang seharusnya ganti garis)
         print('A', end='')
         print('B', end='')
         print('C', end='')
+
+        #menampilkan ganti baris
         print()
+
+        #menampilkan karakter
         print('X')
         print('Y')
         print('Z')
 
-        # Penggunaan separator
-        w, x, y, z = 10, 15, 20, 25
+Hasil output
+
+![Gambar](gambar/11.png)
+
+## Penggunaan separator
+Separator adalah komponen yang menentukan pemisah yang akan digunakan saat memisahkan string. Komponen ini bersifat optional.
+Masukan syntax berikut:
+
+        #input variabel
+        w, x, y, z = 10, 15, 20, 25 
+
+        #menampilkan varible
         print(w, x, y, z)
+
+        #menampilkan varible dengan "," sebagai pemisah antar variable 
         print(w, x, y, z, sep=',')
+
+        #menampilkan varible dengan tidak menggunakan pemisah antar variable 
         print(w, x, y, z, sep='')
+
+        #menampilkan varible dengan ":" sebagai pemisah antar variable 
         print(w, x, y, z, sep=':')
+
+        #menampilkan varible dengan "-" sebagai pemisah antar variable 
         print(w, x, y, z, sep='-----')
 
-        # String format
+Hasil output
+![Gambar](gambar/12.png)
+
+## Penggunaan string format
+Fungsi format() berfungsi untuk melakukan pengaturan format string yang akan dicetak atau ditampilkan ke monitor.
+Contoh syntax : format(value[, format_spec])
+
+        #menampilkan karakter 0 dan karakter 10 yang di pangkatkan
         print(0, 10 ** 0)
         print(1, 10 ** 1)
         print(2, 10 ** 2)
@@ -62,7 +94,8 @@ Masukan code berikut:
         print(9, 10 ** 9)
         print(10, 10 ** 10)
 
-        # String format
+        #menampilkan karakter 0 dengan rata kanan diposisi 3 dan karakter 10 yang rata kanan diposisi 16 dari posisi 3
+        lalu karakter dipangkatkan(0 dan 1 menunjukan letak index, dini 0 = 0 dan 1 = 10)
         print('{0:>3} {1:>16}'.format(0, 10 ** 0))
         print('{0:>3} {1:>16}'.format(1, 10 ** 1))
         print('{0:>3} {1:>16}'.format(2, 10 ** 2))
@@ -75,24 +108,24 @@ Masukan code berikut:
         print('{0:>3} {1:>16}'.format(9, 10 ** 9))
         print('{0:>3} {1:>16}'.format(10, 10 ** 10))
 
-![Gambar](gambar/26.png)
-![Gambar](gambar/27.png)
+Hasil output
+![Gambar](gambar/13.png)
 
-7. Lalu run
+## Latihan 2
+Membuat Program dengan menggunakan formating dan konversi nilai variable
 
-Hasil output latihan1
+1. Buat new strach file "Latihan2"
+2. Masukan syntax berikut :
 
-![Gambar](gambar/28.png)
-
-
-# Latihan 2
-1. Buat new strach file "Latihan2.py"
-2. Masukan code berikut :
-
+        #input nilai variable
         a=input("masukkan nilai a:")
         b=input("masukkan nilai b:")
+
+        #cetak nilai variable
         print("variabel a=",a)
         print("variabel b=",b)
+
+        #cetak hasil operasi kedua variable dengan String Format
         print("hasil penggabungan {1}&{0}=%s".format(a,b) %(a+b))
 
         #konversi nilai variabel
@@ -101,77 +134,53 @@ Hasil output latihan1
         print("hasil penjumlahan {1}+{0}=%s".format(a,b) %(a+b))
         print("hasil penjumlahan {1}/{0}=%s".format(a,b) %(a/b))
 
-![Gambar](gambar/29.png)
-
 Hasil output latihan2
 
 ![Gambar](gambar/30.png)
 
+## Latihan 3
+Membuat program yang menghasilkan gambar seperti diamond dengan string formating
 
-# Latihan 3
-1. Buat new stracth "Latihan3.py"
-2. Masukan code berikut:
+1. Buat new stracth "Latihan3"
+2. Masukan syntax berikut :
 
-string = ""
+        #menampilkan kalimat
+        print("Hello ini script python")
 
-x = int(input("Masukkan angka :"))
-bar = x
+        #menampilkan ganti baris
+        print()
 
-# Looping Baris
-while bar >= 0:
-# Looping Kolom Spasi Kosong
-kol = bar
-while kol > 0:
-string = string + " "
-kol = kol - 1
-# Looping Kolom Bintang Sisi Kiri
-kiri = 1
-while kiri < (x - (bar-1)):
-string = string + " * "
-kiri = kiri + 1
-# Looping Kolom Bintang Sisi Kanan
-kanan = 1
-while kanan < kiri -1:
-string = string + " * "
-kanan = kanan + 1
+        #menampilkan karakter * dengan rata kanan diposisi 12
+        print('{0:>12}'.format('*'))
 
-string = string + "\n\n"
-bar = bar - 1
+        #menampilkan karakter * dengan rata kanan diposisi 12 lalu dipangkatkan 2 dan
+        menampikan karakter terakhir * yang dipangkatkan lalu menampilkan garis ganti
+        print('{0:>12}'.format('*'*2), end='*'*1)
+        print()
+        print('{0:>12}'.format('*'*3), end='*'*2)
+        print()
+        print('{0:>12}'.format('*'*4), end='*'*3)
+        print()
+        print('{0:>12}'.format('*'*5), end='*'*4)
+        print()
+        print('{0:>12}'.format('*'*4), end='*'*3)
+        print()
+        print('{0:>12}'.format('*'*3), end='*'*2)
+        print()
+        print('{0:>12}'.format('*'*2), end='*'*1)
+        print()
 
-
-bar = 1
-# Looping Baris
-while bar <= x:
-kol = bar+1
-# Looping Kolom Spasi Kosong
-while kol > 1:
-string = string + " "
-kol = kol - 1
-# Looping Kolom Bintang Sisi Kiri
-kiri = 0
-while kiri < (x - bar):
-string = string + " * "
-kiri = kiri + 1
-# Looping Kolom Bintang Sisi Kanan
-kanan = kiri
-while kanan > 1:
-string = string + " * "
-kanan = kanan - 1
-string = string + "\n\n"
-bar = bar + 1
-print (string)
-
-![Gambar](gambar/32.png)
-![Gambar](gambar/33.png)
+        #menampilkan karakter * dengan rata kanan diposisi 12
+        print('{0:>12}'.format('*'))
 
 Hasil output latihan3
 
-![Gambar](gambar/34.png)
+![Gambar](gambar/13.png)
 
-# TUGAS
+## TUGAS
 ## MENGHITUNG LUAS DAN KELILING LINGKARAN
 1. Buat new stratch "Praktikum3"
-2. Masukan code berikut :
+2. Masukan syntax berikut :
 
         print('menghitung luas dan keliling lingkaran')
         print('________________________________________')
@@ -186,13 +195,11 @@ Hasil output latihan3
         print('\nluasnya =', str("%.2f" % luas))
         print('kelilingnya =', str("%.2f" % keliling))
 
-![Gambar](gambar/35.png)
-
 Hasil Run
 
 ![Gambar](gambar/36.png)
 
-# Flowchart Menghitung luas dan keliling lingkaran
+## Flowchart menghitung luas dan keliling lingkaran
 
 ![Gambar](gambar/37.png)
 
