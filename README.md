@@ -32,7 +32,9 @@ Tunggu hingga selesai dan program siap digunakan.
 5. Selanjutnya membuat file Phyton baru dan beri nama file "latihan1"
 
 ## Penggunaan end
-Parameter end berfungsi untuk mengganti karakter terakhir bawaan yang dicetak di layar. Jadi secara bawaan, setiap kali kita memanggil fungsi print() untuk mencetak sesuatu, python akan mencetak karakter ganti baris () di setiap output.
+Parameter end berfungsi untuk mengganti karakter terakhir bawaan yang dicetak di layar.
+Jadi secara bawaan, setiap kali kita memanggil fungsi print() untuk mencetak sesuatu,
+python akan mencetak karakter ganti baris () di setiap output.
 Masukan syntax berikut:
 
         #menampilkan karakter dengan mengosongkan karakter terakhir(yang seharusnya ganti garis)
@@ -53,8 +55,8 @@ Hasil output
 ![Gambar](gambar/11.png)
 
 ## Penggunaan separator
-Separator adalah komponen yang menentukan pemisah yang akan digunakan saat memisahkan string. Komponen ini bersifat optional.
-Masukan syntax berikut:
+Separator adalah komponen yang menentukan pemisah yang akan digunakan saat memisahkan string.
+Komponen ini bersifat optional. Masukan syntax berikut:
 
         #input variabel
         w, x, y, z = 10, 15, 20, 25 
@@ -96,6 +98,7 @@ Contoh syntax : format(value[, format_spec])
 
         #menampilkan karakter 0 dengan rata kanan diposisi 3 dan karakter 10 yang rata kanan diposisi 16 dari posisi 3
         lalu karakter dipangkatkan(0 dan 1 menunjukan letak index, dini 0 = 0 dan 1 = 10)
+        
         print('{0:>3} {1:>16}'.format(0, 10 ** 0))
         print('{0:>3} {1:>16}'.format(1, 10 ** 1))
         print('{0:>3} {1:>16}'.format(2, 10 ** 2))
@@ -151,10 +154,12 @@ Membuat program yang menghasilkan gambar seperti diamond dengan string formating
         print()
 
         #menampilkan karakter * dengan rata kanan diposisi 12
+        
         print('{0:>12}'.format('*'))
 
         #menampilkan karakter * dengan rata kanan diposisi 12 lalu dipangkatkan 2 dan
         menampikan karakter terakhir * yang dipangkatkan lalu menampilkan garis ganti
+
         print('{0:>12}'.format('*'*2), end='*'*1)
         print()
         print('{0:>12}'.format('*'*3), end='*'*2)
