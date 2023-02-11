@@ -7,7 +7,7 @@ NIM : 312210727
 
 Kelas : TI.22.C9
 
-Prodi : Teknik Informatika
+Mata Kuliah : Bahasa Pemograman
 
 Langkah-langkahnya yaitu :
 1. Install Pycharm di https://www.jetbrains.com/pycharm/download/#section=windows
